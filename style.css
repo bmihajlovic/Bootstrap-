@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+/* nav and slider - header  */
+.bg-light {
+    background-color: transparent !important;
+    border-bottom: 1px solid lightgray;
+    padding: 0 100px
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 2em;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 10%;
+    top: 27%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.bd-example .btn-outline-primary {
+    color: white;
+    border-color: white;
+    border-radius: 0;
+}
+.bd-example .btn-outline-primary:hover {
+    color: white;
+    border-color: white;
+    background: transparent;
+}
+/* intro */
+.intro {
+    padding: 50px 0;
+}
+.intro h2 {
+    padding: 20px 0;
+}
+/* counter */
+.counter {
+    padding: 10px 0 50px 0;
+}
+.counter i {
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* plan */
+.plan {
+    background: blue;
+    padding: 50px 0;
+}
+.plan .icons {
+    width: 70px;
+    height: 70px;
+    background: white;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan i {
+    color: blue;
+    font-size: 2em;
+}
+
+/* plan */
+.packages {
+    padding: 50px 0;
+}
+.packages .price {
+    position: relative;
+}
+.packages .tag {
+    display: inline-block;
+    background: blue;
+    color: white;
+    padding: 3px 7px;
+    position: absolute;
+    right: 20px;
+    bottom: 2px;
+}
+.packages .btn {
+    border-radius: 0;
+    margin-top: 30px;
+}
+.packages .fa-map-marker-alt, .fa-clock {
+    color: blue;
+}
+/* enjoy the trip */
+.jumbotron {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/slide-palms.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.jumbotron .btn-outline-primary {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0;
+}
+.jumbotron .btn-outline-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0;
+}
+/* destinations */
+.destinations {
+    padding: 50px 0;
+}
+.destinations .col-md-3 {
+    position: relative;
+}
+.destinations .stars {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    background: blue;
+    color: white;
+    padding: 3px;
+}
+.destinations .col-md-12 {
+    padding-bottom: 30px;
+}
+/* contact */
+.contact {
+    background: black;
+    color: lightgray;
+    padding: 50px 0;
+}
+.socials {
+    display: flex;
+}
+.socials li {
+    padding-right: 10px;
+}
+.contact .fa-paper-plane {
+    position: relative;
+    left: -30px;
+    color: lightgray;
+}
+.contact button, input, optgroup, select, textarea {
+    background: black;
+    color: lightgray;
+    padding: 5px;
+}
+.contact .list-unstyled li a {
+    color: lightgray;
+}
+.contact .list-unstyled li a:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+/* footer */
+footer {
+    background: #120f0f;
+    color: lightgray;
+    padding: 20px 0 10px 0;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: lightgray;
+}
+
+
+
+
